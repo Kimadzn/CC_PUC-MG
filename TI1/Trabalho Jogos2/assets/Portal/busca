@@ -1,0 +1,29 @@
+const content = document.querySelector(".content");
+const inputSearch = document.querySelector("input[type='search']");
+
+let jogos = [];
+
+inputSearch.oninput = () => {
+  content.innerHTML = "";
+
+  items
+    .filter((jogos) =>
+      item.toLowerCase().includes(inputSearch.value.toLowerCase())
+    )
+    .forEach((jogos) => addHTML(jogos));
+};
+
+function addHTML(jogos) {
+  const div = document.createElement("div");
+  div.innerHTML = jogos;
+  content.append(div);
+}
+
+fetch("https://api.rawg.io/api/games?key=890c25a24c8d42feb92b0284eb24b872")
+  .then((data) => data.json())
+  .then((users) => {
+    users.forEach((user) => {
+      addHTML(user.name);
+      items.push(user.name);
+    });
+  });
