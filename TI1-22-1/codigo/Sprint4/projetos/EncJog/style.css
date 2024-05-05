@@ -1,0 +1,89 @@
+fieldset{
+    padding: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 500px;
+}
+
+.idTamanho input{
+    text-align: center;
+    width: 30px;
+}
+
+#img{
+    border-radius: 0px;
+}
+
+button{
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+body{
+    background-color: black;
+}
+
+footer{
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+.main{
+    background-color: rgb(153, 74, 227);
+    position: relative;
+    min-height: 87vh;
+}
+header{
+    background-color: white;
+    padding: 5px;
+}
+
+header img{
+    width: 100%;
+}
+
+.nav1 a{
+    margin-right: 5px;
+}
+
+header a{
+    margin-top: 13px;
+}
+
+label{
+    font-weight: bold;
+}
+
+.btn{
+    text-align: center;
+}
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 130%;
+}
+#btnImprimir{
+    font-size: 100%;
+}
+
+form{
+    padding-top: 10vh;
+}
+
+#tela{
+    padding: 20px;
+}
+
+.nav2{
+  margin: 0 auto;
+}
+

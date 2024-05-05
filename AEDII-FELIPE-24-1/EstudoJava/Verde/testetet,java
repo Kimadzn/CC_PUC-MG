@@ -1,0 +1,167 @@
+package dao;
+
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+
+import model.Funcionario;
+
+public class FuncionarioDAO extends DAO {
+	
+	public FuncionarioDAO() {
+		super();
+		conectar();
+	}
+
+	public void finalize() {
+		close();
+	}
+	
+	
+	public boolean insert(Funcionario Funcionario) {
+		boolean status = false;
+		try {  
+			Statement st = conexao.createStatement();
+			String sql = "INSERT INTO Funcionario (codigo, login, senha, sexo) "
+				       + "VALUES ("+Funcionario.getCodigo()+ ", '" + Funcionario.getLogin() + "', '"  
+				       + Funcionario.getSenha() + "', '" + Funcionario.getSexo() + "');";
+			System.out.println(sql);
+			st.executeUpdate(sql);
+			st.close();
+			status = true;
+		} catch (SQLException u) {  
+			throw new RuntimeException(u);
+		}
+		return status;
+	}
+
+	
+	public Funcionario get(int codigo) {
+		Funcionario Funcionario = null;
+		
+		try {
+			Statement st = conexao.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
+			String sql = "SELECT * FROM produto WHERE id=" + codigo;
+			System.out.println(sql);
+			ResultSet rs = st.executeQuery(sql);	
+	        if(rs.next()){            
+	        	 Funcionario = new Funcionario(rs.getInt("codigo"), rs.getString("login"), rs.getString("senha"), rs.getString("sexo").charAt(0));
+	        }
+	        st.close();
+		} catch (Exception e) {
+			System.err.println(e.getMessage());
+		}
+		return Funcionario;
+	}
+	
+	
+	public List<Funcionario> get() {
+		return get("");
+	}
+
+	
+	public List<Funcionario> getOrderByCodigo() {
+		return get("codigo");		
+	}
+	
+	
+	public List<Funcionario> getOrderByLogin() {
+		return get("login");		
+	}
+	
+	
+	public List<Funcionario> getOrderBySexo() {
+		return get("sexo");		
+	}
+	
+	
+	private List<Funcionario> get(String orderBy) {	
+	
+		List<Funcionario> Funcionarios = new ArrayList<Funcionario>();
+		
+		try {
+			Statement st = conexao.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
+			String sql = "SELECT * FROM Funcionario" + ((orderBy.trim().length() == 0) ? "" : (" ORDER BY " + orderBy));
+			System.out.println(sql);
+			ResultSet rs = st.executeQuery(sql);	           
+	        while(rs.next()) {	            	
+	        	Funcionario u = new Funcionario(rs.getInt("codigo"), rs.getString("login"), rs.getString("senha"), rs.getString("sexo").charAt(0));
+	            Funcionarios.add(u);
+	        }
+	        st.close();
+		} catch (Exception e) {
+			System.err.println(e.getMessage());
+		}
+		return Funcionarios;
+	}
+
+
+	public List<Funcionario> getSexoMasculino() {
+		List<Funcionario> Funcionarios = new ArrayList<Funcionario>();
+		
+		try {
+			Statement st = conexao.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
+			String sql = "SELECT * FROM Funcionario WHERE Funcionario.sexo LIKE 'M'";
+			System.out.println(sql);
+			ResultSet rs = st.executeQuery(sql);	           
+	        while(rs.next()) {	            	
+	        	Funcionario u = new Funcionario(rs.getInt("codigo"), rs.getString("login"), rs.getString("senha"), rs.getString("sexo").charAt(0));
+	            Funcionarios.add(u);
+	        }
+	        st.close();
+		} catch (Exception e) {
+			System.err.println(e.getMessage());
+		}
+		return Funcionarios;
+	}
+	
+	
+	public boolean update(Funcionario Funcionario) {
+		boolean status = false;
+		try {  
+			Statement st = conexao.createStatement();
+			String sql = "UPDATE Funcionario SET login = '" + Funcionario.getLogin() + "', senha = '"  
+				       + Funcionario.getSenha() + "', sexo = '" + Funcionario.getSexo() + "'"
+					   + " WHERE codigo = " + Funcionario.getCodigo();
+			System.out.println(sql);
+			st.executeUpdate(sql);
+			st.close();
+			status = true;
+		} catch (SQLException u) {  
+			throw new RuntimeException(u);
+		}
+		return status;
+	}
+	
+	public boolean delete(int codigo) {
+		boolean status = false;
+		try {  
+			Statement st = conexao.createStatement();
+			String sql = "DELETE FROM Funcionario WHERE codigo = " + codigo;
+			System.out.println(sql);
+			st.executeUpdate(sql);
+			st.close();
+			status = true;
+		} catch (SQLException u) {  
+			throw new RuntimeException(u);
+		}
+		return status;
+	}
+	
+	
+	public boolean autenticar(String login, String senha) {
+		boolean resp = false;
+		
+		try {
+			Statement st = conexao.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
+			String sql = "SELECT * FROM Funcionario WHERE login LIKE '" + login + "' AND senha LIKE '" + senha  + "'";
+			System.out.println(sql);
+			ResultSet rs = st.executeQuery(sql);
+			resp = rs.next();
+	        st.close();
+		} catch (Exception e) {
+			System.err.println(e.getMessage());
+		}
+		return resp;
+	}	
+}

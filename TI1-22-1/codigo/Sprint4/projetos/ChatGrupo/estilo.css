@@ -1,0 +1,101 @@
+.header
+{
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+}
+.nav1 a{
+    margin-right: 5px;
+}
+header img{
+    width: 100%;
+}
+body{
+    background-color: rgb(153, 74, 227);
+}
+
+#barraE{
+    background-color: rgb(14, 13, 13);
+    
+    
+    font-size: medium;
+    align-items: center;
+    justify-content:left;
+    
+}
+
+#barraM{
+    background-color: rgb(181, 120, 238);
+    
+    display: grid;
+    color: white;
+    align-items: center;
+    
+}#barraD{
+    background-color: rgb(14, 13, 13);
+    color: white;
+    justify-content:left;
+    align-items: center;
+    position:static;
+    font-size: medium;
+}
+
+b{
+    color: rgb(125, 255, 96);
+    
+    /*text-align: right;
+    float: right;*/
+    
+    font-size: medium;
+    font-style: normal;
+    font-weight:normal;
+    text-decoration: none;
+}
+
+
+
+li{
+    float: left;
+    list-style: none;
+}
+
+button{
+    border: none;
+    border-left: 100%;
+    
+    background-color: rgb(14, 13, 13);
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+
+
+#be{
+    
+    display: grid;
+    align-items: center;
+    justify-content:left;
+}#bm{
+    margin-top: 5px;
+    display: grid;
+    
+    align-items: center;
+    
+}#bd{
+    
+    display: grid;
+    justify-content:left;
+    align-items: center;
+}
+
+#enviar{
+    margin-top: 10px;
+}
+
+#adc{
+    font-size: small;;
+}
+
+.nav2{
+  margin: 0 auto;
+}

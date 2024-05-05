@@ -1,0 +1,298 @@
+﻿diameter narrowing, age, gender, chest pain, ecg;
+0,;35,female,asymptomatic,normal
+0,;49,female,asymptomatic,normal
+0,;51,female,asymptomatic,normal
+0,;57,female,asymptomatic,normal
+0,;57,female,asymptomatic,normal
+0,;58,female,asymptomatic,normal
+0,;59,female,asymptomatic,normal
+0,;62,female,asymptomatic,normal
+0,;62,female,asymptomatic,normal
+0,;62,female,asymptomatic,normal
+0,;63,female,asymptomatic,normal
+0,;63,female,asymptomatic,normal
+0,;64,female,asymptomatic,normal
+0,;64,female,asymptomatic,normal
+0,;66,female,asymptomatic,normal
+0,;67,female,asymptomatic,normal
+0,;71,female,asymptomatic,normal
+0,;42,female,asymptomatic,left vent hypertrophy
+0,;43,female,asymptomatic,left vent hypertrophy
+0,;45,female,asymptomatic,left vent hypertrophy
+0,;46,female,asymptomatic,left vent hypertrophy
+0,;50,female,asymptomatic,left vent hypertrophy
+0,;53,female,asymptomatic,left vent hypertrophy
+0,;53,female,asymptomatic,left vent hypertrophy
+0,;56,female,asymptomatic,left vent hypertrophy
+0,;56,female,asymptomatic,left vent hypertrophy
+0,;57,female,asymptomatic,left vent hypertrophy
+0,;58,female,asymptomatic,left vent hypertrophy
+0,;58,female,asymptomatic,left vent hypertrophy
+0,;60,female,asymptomatic,left vent hypertrophy
+0,;60,female,asymptomatic,left vent hypertrophy
+0,;61,female,asymptomatic,left vent hypertrophy
+0,;61,female,asymptomatic,left vent hypertrophy
+0,;62,female,asymptomatic,left vent hypertrophy
+0,;62,female,asymptomatic,left vent hypertrophy
+0,;62,female,asymptomatic,left vent hypertrophy
+0,;63,female,asymptomatic,left vent hypertrophy
+0,;65,female,asymptomatic,left vent hypertrophy
+0,;55,female,asymptomatic,ST-T abnormal
+0,;55,female,asymptomatic,ST-T abnormal
+0,;34,female,atypical ang,normal
+0,;41,female,atypical ang,normal
+0,;41,female,atypical ang,normal
+0,;45,female,atypical ang,normal
+0,;46,female,atypical ang,normal
+0,;49,female,atypical ang,normal
+0,;50,female,atypical ang,normal
+0,;55,female,atypical ang,normal
+0,;63,female,atypical ang,normal
+0,;71,female,atypical ang,normal
+0,;41,female,atypical ang,left vent hypertrophy
+0,;45,female,atypical ang,left vent hypertrophy
+0,;54,female,atypical ang,left vent hypertrophy
+0,;55,female,atypical ang,left vent hypertrophy
+0,;56,female,atypical ang,left vent hypertrophy
+0,;57,female,atypical ang,left vent hypertrophy
+0,;58,female,atypical ang,left vent hypertrophy
+0,;74,female,atypical ang,left vent hypertrophy
+0,;37,female,non-anginal,normal
+0,;39,female,non-anginal,normal
+0,;39,female,non-anginal,normal
+0,;42,female,non-anginal,normal
+0,;43,female,non-anginal,normal
+0,;44,female,non-anginal,normal
+0,;44,female,non-anginal,normal
+0,;48,female,non-anginal,normal
+0,;50,female,non-anginal,normal
+0,;54,female,non-anginal,normal
+0,;54,female,non-anginal,normal
+0,;54,female,non-anginal,normal
+0,;58,female,non-anginal,normal
+0,;60,female,non-anginal,normal
+0,;60,female,non-anginal,normal
+0,;62,female,non-anginal,normal
+0,;64,female,non-anginal,normal
+0,;65,female,non-anginal,normal
+0,;67,female,non-anginal,normal
+0,;41,female,non-anginal,left vent hypertrophy
+0,;46,female,non-anginal,left vent hypertrophy
+0,;51,female,non-anginal,left vent hypertrophy
+0,;51,female,non-anginal,left vent hypertrophy
+0,;51,female,non-anginal,left vent hypertrophy
+0,;52,female,non-anginal,left vent hypertrophy
+0,;54,female,non-anginal,left vent hypertrophy
+0,;63,female,non-anginal,left vent hypertrophy
+0,;65,female,non-anginal,left vent hypertrophy
+0,;65,female,non-anginal,left vent hypertrophy
+0,;66,female,non-anginal,left vent hypertrophy
+0,;67,female,non-anginal,left vent hypertrophy
+0,;68,female,non-anginal,left vent hypertrophy
+0,;71,female,non-anginal,left vent hypertrophy
+0,;76,female,non-anginal,ST-T abnormal
+0,;60,female,typical ang,normal
+0,;66,female,typical ang,normal
+0,;69,female,typical ang,normal
+0,;58,female,typical ang,left vent hypertrophy
+0,;35,male,asymptomatic,normal
+0,;39,male,asymptomatic,normal
+0,;40,male,asymptomatic,normal
+0,;42,male,asymptomatic,normal
+0,;42,male,asymptomatic,normal
+0,;43,male,asymptomatic,normal
+0,;43,male,asymptomatic,normal
+0,;43,male,asymptomatic,normal
+0,;44,male,asymptomatic,normal
+0,;46,male,asymptomatic,normal
+0,;47,male,asymptomatic,normal
+0,;51,male,asymptomatic,normal
+0,;51,male,asymptomatic,normal
+0,;52,male,asymptomatic,normal
+0,;52,male,asymptomatic,normal
+0,;52,male,asymptomatic,normal
+0,;52,male,asymptomatic,normal
+0,;53,male,asymptomatic,normal
+0,;54,male,asymptomatic,normal
+0,;54,male,asymptomatic,normal
+0,;54,male,asymptomatic,normal
+0,;55,male,asymptomatic,normal
+0,;55,male,asymptomatic,normal
+0,;57,male,asymptomatic,normal
+0,;57,male,asymptomatic,normal
+0,;57,male,asymptomatic,normal
+0,;57,male,asymptomatic,normal
+0,;57,male,asymptomatic,normal
+0,;57,male,asymptomatic,normal
+0,;58,male,asymptomatic,normal
+0,;58,male,asymptomatic,normal
+0,;59,male,asymptomatic,normal
+0,;59,male,asymptomatic,normal
+0,;60,male,asymptomatic,normal
+0,;60,male,asymptomatic,normal
+0,;61,male,asymptomatic,normal
+0,;61,male,asymptomatic,normal
+0,;62,male,asymptomatic,normal
+0,;64,male,asymptomatic,normal
+0,;65,male,asymptomatic,normal
+0,;67,male,asymptomatic,normal
+0,;67,male,asymptomatic,normal
+0,;68,male,asymptomatic,normal
+0,;70,male,asymptomatic,normal
+0,;35,male,asymptomatic,left vent hypertrophy
+0,;40,male,asymptomatic,left vent hypertrophy
+0,;41,male,asymptomatic,left vent hypertrophy
+0,;43,male,asymptomatic,left vent hypertrophy
+0,;44,male,asymptomatic,left vent hypertrophy
+0,;44,male,asymptomatic,left vent hypertrophy
+0,;45,male,asymptomatic,left vent hypertrophy
+0,;45,male,asymptomatic,left vent hypertrophy
+0,;45,male,asymptomatic,left vent hypertrophy
+0,;46,male,asymptomatic,left vent hypertrophy
+0,;47,male,asymptomatic,left vent hypertrophy
+0,;48,male,asymptomatic,left vent hypertrophy
+0,;48,male,asymptomatic,left vent hypertrophy
+0,;48,male,asymptomatic,left vent hypertrophy
+0,;50,male,asymptomatic,left vent hypertrophy
+0,;50,male,asymptomatic,left vent hypertrophy
+0,;51,male,asymptomatic,left vent hypertrophy
+0,;53,male,asymptomatic,left vent hypertrophy
+0,;53,male,asymptomatic,left vent hypertrophy
+0,;54,male,asymptomatic,left vent hypertrophy
+1,;54,male,asymptomatic,left vent hypertrophy
+1,;54,male,asymptomatic,left vent hypertrophy
+1,;55,male,asymptomatic,left vent hypertrophy
+1,;56,male,asymptomatic,left vent hypertrophy
+1,;56,male,asymptomatic,left vent hypertrophy
+1,;56,male,asymptomatic,left vent hypertrophy
+1,;57,male,asymptomatic,left vent hypertrophy
+1,;57,male,asymptomatic,left vent hypertrophy
+1,;58,male,asymptomatic,left vent hypertrophy
+1,;58,male,asymptomatic,left vent hypertrophy
+1,;58,male,asymptomatic,left vent hypertrophy
+1,;58,male,asymptomatic,left vent hypertrophy
+1,;59,male,asymptomatic,left vent hypertrophy
+1,;59,male,asymptomatic,left vent hypertrophy
+1,;59,male,asymptomatic,left vent hypertrophy
+1,;59,male,asymptomatic,left vent hypertrophy
+1,;60,male,asymptomatic,left vent hypertrophy
+1,;60,male,asymptomatic,left vent hypertrophy
+1,;60,male,asymptomatic,left vent hypertrophy
+1,;60,male,asymptomatic,left vent hypertrophy
+1,;61,male,asymptomatic,left vent hypertrophy
+1,;61,male,asymptomatic,left vent hypertrophy
+1,;63,male,asymptomatic,left vent hypertrophy
+1,;63,male,asymptomatic,left vent hypertrophy
+1,;63,male,asymptomatic,left vent hypertrophy
+1,;64,male,asymptomatic,left vent hypertrophy
+1,;64,male,asymptomatic,left vent hypertrophy
+1,;65,male,asymptomatic,left vent hypertrophy
+1,;65,male,asymptomatic,left vent hypertrophy
+1,;66,male,asymptomatic,left vent hypertrophy
+1,;66,male,asymptomatic,left vent hypertrophy
+1,;66,male,asymptomatic,left vent hypertrophy
+1,;67,male,asymptomatic,left vent hypertrophy
+1,;67,male,asymptomatic,left vent hypertrophy
+1,;67,male,asymptomatic,left vent hypertrophy
+1,;70,male,asymptomatic,left vent hypertrophy
+1,;77,male,asymptomatic,left vent hypertrophy
+1,;58,male,asymptomatic,ST-T abnormal
+1,;35,male,atypical ang,normal
+1,;41,male,atypical ang,normal
+1,;41,male,atypical ang,normal
+1,;41,male,atypical ang,normal
+1,;42,male,atypical ang,normal
+1,;44,male,atypical ang,normal
+1,;44,male,atypical ang,normal
+1,;46,male,atypical ang,normal
+1,;48,male,atypical ang,normal
+1,;49,male,atypical ang,normal
+1,;52,male,atypical ang,normal
+1,;52,male,atypical ang,normal
+1,;52,male,atypical ang,normal
+1,;54,male,atypical ang,normal
+1,;55,male,atypical ang,normal
+1,;56,male,atypical ang,normal
+1,;56,male,atypical ang,normal
+1,;57,male,atypical ang,normal
+1,;59,male,atypical ang,normal
+1,;66,male,atypical ang,normal
+1,;29,male,atypical ang,left vent hypertrophy
+1,;44,male,atypical ang,left vent hypertrophy
+1,;45,male,atypical ang,left vent hypertrophy
+1,;48,male,atypical ang,left vent hypertrophy
+1,;54,male,atypical ang,left vent hypertrophy
+1,;56,male,atypical ang,left vent hypertrophy
+1,;57,male,atypical ang,left vent hypertrophy
+1,;58,male,atypical ang,left vent hypertrophy
+1,;62,male,atypical ang,left vent hypertrophy
+1,;62,male,atypical ang,left vent hypertrophy
+1,;70,male,atypical ang,left vent hypertrophy
+1,;37,male,non-anginal,normal
+1,;41,male,non-anginal,normal
+1,;42,male,non-anginal,normal
+1,;42,male,non-anginal,normal
+1,;43,male,non-anginal,normal
+1,;44,male,non-anginal,normal
+1,;44,male,non-anginal,normal
+1,;46,male,non-anginal,normal
+1,;47,male,non-anginal,normal
+1,;47,male,non-anginal,normal
+1,;48,male,non-anginal,normal
+1,;49,male,non-anginal,normal
+1,;50,male,non-anginal,normal
+1,;50,male,non-anginal,normal
+1,;51,male,non-anginal,normal
+1,;51,male,non-anginal,normal
+1,;51,male,non-anginal,normal
+1,;52,male,non-anginal,normal
+1,;57,male,non-anginal,normal
+1,;57,male,non-anginal,normal
+1,;59,male,non-anginal,normal
+1,;59,male,non-anginal,normal
+1,;61,male,non-anginal,normal
+1,;62,male,non-anginal,normal
+1,;64,male,non-anginal,normal
+1,;64,male,non-anginal,normal
+1,;68,male,non-anginal,normal
+1,;70,male,non-anginal,normal
+1,;39,male,non-anginal,left vent hypertrophy
+1,;41,male,non-anginal,left vent hypertrophy
+1,;44,male,non-anginal,left vent hypertrophy
+1,;47,male,non-anginal,left vent hypertrophy
+1,;49,male,non-anginal,left vent hypertrophy
+1,;51,male,non-anginal,left vent hypertrophy
+1,;53,male,non-anginal,left vent hypertrophy
+1,;53,male,non-anginal,left vent hypertrophy
+1,;54,male,non-anginal,left vent hypertrophy
+1,;54,male,non-anginal,left vent hypertrophy
+1,;54,male,non-anginal,left vent hypertrophy
+1,;56,male,non-anginal,left vent hypertrophy
+1,;57,male,non-anginal,left vent hypertrophy
+1,;58,male,non-anginal,left vent hypertrophy
+1,;58,male,non-anginal,left vent hypertrophy
+1,;58,male,non-anginal,left vent hypertrophy
+1,;58,male,non-anginal,left vent hypertrophy
+1,;60,male,non-anginal,left vent hypertrophy
+1,;67,male,non-anginal,left vent hypertrophy
+1,;68,male,non-anginal,left vent hypertrophy
+1,;69,male,non-anginal,left vent hypertrophy
+1,;38,male,typical ang,normal
+1,;40,male,typical ang,normal
+1,;45,male,typical ang,normal
+1,;52,male,typical ang,normal
+1,;59,male,typical ang,normal
+1,;61,male,typical ang,normal
+1,;34,male,typical ang,left vent hypertrophy
+1,;42,male,typical ang,left vent hypertrophy
+1,;51,male,typical ang,left vent hypertrophy
+1,;52,male,typical ang,left vent hypertrophy
+1,;56,male,typical ang,left vent hypertrophy
+1,;59,male,typical ang,left vent hypertrophy
+1,;59,male,typical ang,left vent hypertrophy
+1,;59,male,typical ang,left vent hypertrophy
+1,;63,male,typical ang,left vent hypertrophy
+1,;64,male,typical ang,left vent hypertrophy
+1,;64,male,typical ang,left vent hypertrophy
+1,;65,male,typical ang,left vent hypertrophy
+1,;69,male,typical ang,left vent hypertrophy

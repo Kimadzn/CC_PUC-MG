@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Website Pessoal</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header class="container">
+        <div class="logo">
+            
+            <h2>Website Pessoal | trabalho LIP</h2>
+        </div>
+    </header>
+
+    <!--SECTION-1-->
+    <section class="section-1 container">
+
+        <div class="ebook">
+            <img src="images/fotoper.png" >
+        </div>
+
+        <div class="action-title">
+            <h2>Quem eu sou ?</h2>
+            <p id="desc">Me chamo Arthur Octavio Xavier Messias, possuo 19 anos atualmente, estou cursando a graduação de Ciência da Computação na Pontifícia Universidade Católica de Minas Gerais (PUC MINAS).</p>
+           
+        </div>
+        
+        
+
+    </section>
+
+    <!--SECTION-2-->
+    <section class="section-2 container">
+        <h2>Níveis do aprendizado</h2>
+        <div class="cards">
+
+            <div class="card">
+                <img src="images/icon-card.png" id="css">
+                 CSS INTERMEDIÁRIO
+            </div>
+
+            <div class="card">
+                <img src="images/ICON-CARD2.png"id="css">
+                HTML INTERMEDIÁRIO
+            </div>
+
+            <div class="card">
+                <img src="images/ICON-CARD3.jpg"id="css">
+                JS BASICO
+            </div>
+
+            
+        </div>
+        <p id="desc"> Estudante de programação com conhecimento consolidado em orientação a objetos e competente com Javascript e HTML e demais tecnologias.
+
+            Procuro sempre por novos conhecimentos.
+            
+            Curso de lógica de programação JavaScript, Html, CSS, 
+            Cursos com Certificado feitos na plataforma Alura
+            </p>
+
+    </section>
+
+    <!--SECTION-3-->
+    <section class="section-3">
+        <h2>Desde 2003</h2>
+        <p>Tentando sempre dar o meu melhor :)</p>
+
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        
+        <button onclick="topFunction()" class="button-footer" title="Go to top" id="myBtn">Volte para o topo da pagina</button>
+        
+        <p>Website Pessoal responsivo</p>
+    </footer>
+  <div class="cursor"></div>
+  <div class="cursor2"></div>
+
+  <script>
+    var cursor = document.querySelector(".cursor");
+    var cursor2 = document.querySelector(".cursor2");
+    document.addEventListener("mousemove",function(e){
+      cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+    });
+  </script>
+</body>
+<script>
+    function typeWriter(elemento) {
+      const textoArray = elemento.innerHTML.split('');
+      elemento.innerHTML = '';
+      textoArray.forEach((letra, i) => {
+        setTimeout(() => elemento.innerHTML += letra, 75 * i);
+      });
+    }
+  
+    const titulo = document.querySelector('h2');
+    typeWriter(titulo);
+
+    // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+  </script>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>Registro Perfil</title>
+</head>
+<body>
+
+	<form id="myForm" action="" method="post" enctype="multipart/form-data" autocomplete="off">
+		<h2>Registro Perfil</h2>
+		<h4>Os campos precisam ser <span>preenchidos</span></h4>
+
+		<label>Username</label>
+		<input type="text" name="username">
+		
+		<label>CPF</label>
+		<input type="text" name="cpf">
+
+		<label>Telefone</label>
+		<input type="tel" name="telefone">
+
+
+		<label>Senha</label>
+		<input type="password" name="password">
+
+		<button type="submit" name="submit">Register</button>
+
+		
+	</form>
+	<div class="results">
+		<p class="result-json-output"></p>
+	  </div>
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="./form-to-json.js"></script>
+	<script src="./data.js"></script>
+</body>
+</html>

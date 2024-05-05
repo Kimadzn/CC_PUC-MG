@@ -1,0 +1,80 @@
+
+input{
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 80%;
+    margin-left: 20px;
+}
+
+#btn-amigos{
+    background-color: black;
+    color: white;
+    height: 50px;
+    font-size: 130%;
+    width: 100%;
+    font-weight: bold;
+}
+
+button{
+    background-color: rgb(153, 74, 227);
+    border-color: black;
+    color: black;
+    height: 50px;
+    font-size: 130%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+footer{
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+.main{
+    background-color: rgb(153, 74, 227);
+    position: relative;
+    min-height: 87vh;
+    padding: 0;
+}
+header{
+    background-color: white;
+    padding: 5px;
+}
+
+header img{
+    width: 100%;
+}
+
+.nav1 a{
+    margin-right: 5px;
+}
+
+header a{
+    margin-top: 13px;
+}
+
+#nome_amigo p{
+    font-size: 200%;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#tela{
+    background-color: rgb(181, 120, 238);
+    border-radius: 32px;
+    width: 80%;
+    color: black;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.nav2{
+  margin: 0 auto;
+}
+
+

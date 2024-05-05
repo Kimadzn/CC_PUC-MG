@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>E-games!</title>
+</head>
+<link rel="stylesheet" href="estilos.css" />
+
+<header class="container header">
+  <div class=" row">
+    <div class="col-2 logo">
+      <a href="../PagInicial/index.html"><img src="../../imagens/E-PARCEIROS-t.png" alt="Logo"></a>
+    </div>
+    <div class="col-8 nav2">
+      <nav class="nav nav-pills flex-column flex-sm-row">
+        <a class="flex-sm-fill text-sm-center nav-link active bg-dark" href="../PagInicial/index.html">Home</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="container search-table" id="total">
+    <div class="search-box">
+        <div class="row">
+            <div class="col-md-3">
+                <h5>Procure seu parceiro</h5>
+            </div>
+            <div class="col-md-9">
+                <input type="text" id="myInput" onkeyup="myFunction()" class="form-control"
+                    placeholder="Escreva aqui o nome do seu parceiro">
+                <script>
+                    $(document).ready(function () {
+                        $("#myInput").on("keyup", function () {
+                            var value = $(this).val().toLowerCase();
+                            $("#myTable tr").filter(function () {
+                                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                            });
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <div class="search-list">
+        <!--<h3><button id='bte-1' type='button' onclick='busc()'>Buscar</button></h3>--->
+
+        <table class="table" id="myTable">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Número</th>
+                </tr>
+            </thead>
+            <tbody id="nimes">
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+
+<!-- JavaScript (Opcional) -->
+<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+<script src="app.js"></script>
+
+</html>
