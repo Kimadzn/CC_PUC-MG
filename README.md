@@ -4,17 +4,17 @@
 
 Repositório referente as matérias feitas no curso ciência da computação na Pontifícia Universidade Católica de Minas Gerais
 
-## AEDI 💾
-[AEDI-Gustavo]
+## AEDI 📁
+[Algoritmos e Estruturas de Dados Gustavo-] (https://github.com/Kimadzn/CC_PUC-MG/tree/main/AEDI-Gustavo) 
 
 [AEDI-Theldo]
-## AED 2 💻
+## AED 2 📁
 [AEDII]
-## DIW 🖼️
+## DIW 📁
 [DIW]
 ## ARQ01 🏛️
 [ARQ01]
-## IC ⌨️
+## IC ⌨📁
 [IC]
 ## Sistema Inteligente/Machine Learning 🤖
 [Sistemas-Inteligentes]
