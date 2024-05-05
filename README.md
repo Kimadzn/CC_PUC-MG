@@ -6,6 +6,7 @@ Repositório referente as matérias feitas no curso ciência da computação na 
 
 ## AEDI 📁
 [Algoritmos e Estruturas de Dados Gustavo](https://github.com/Kimadzn/CC_PUC-MG/tree/main/AEDI-Gustavo) 
+
 [AEDI-Theldo](https://github.com/Kimadzn/CC_PUC-MG/tree/main/AEDI-Theldo)
 ## AED 2 📁
 [AEDII](https://github.com/Kimadzn/CC_PUC-MG/tree/main/AEDII)
