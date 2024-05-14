@@ -1,30 +1,28 @@
+# Repositório Ciência da Computação PUC MINAS 💻
 
-# Reposistorio Ciência da Computação PUC MINAS 💻
+Bem-vindo ao repositório dedicado às matérias do curso de Ciência da Computação na Pontifícia Universidade Católica de Minas Gerais. Aqui você encontrará os materiais e códigos desenvolvidos ao longo do curso.
 
+## Estruturas de Dados e Algoritmos I 📚
+- [AEDI - Gustavo](https://github.com/Kimadzn/CC_PUC-MG/tree/main/AEDI-Gustavo)
+- [AEDI - Theldo](https://github.com/Kimadzn/CC_PUC-MG/tree/main/AEDI-Theldo)
 
-Repositório referente as matérias feitas no curso ciência da computação na Pontifícia Universidade Católica de Minas Gerais
+## Estruturas de Dados e Algoritmos II 📂
+- [AEDII](https://github.com/Kimadzn/CC_PUC-MG/tree/main/AEDII)
 
-## AEDI 📁
-[Algoritmos e Estruturas de Dados Gustavo](https://github.com/Kimadzn/CC_PUC-MG/tree/main/AEDI-Gustavo) 
+## Desenvolvimento de Interfaces Web 🌐
+- [DIW](https://github.com/Kimadzn/CC_PUC-MG/tree/main/DIW)
 
-[AEDI-Theldo](https://github.com/Kimadzn/CC_PUC-MG/tree/main/AEDI-Theldo)
-## AED 2 📁
-[AEDII](https://github.com/Kimadzn/CC_PUC-MG/tree/main/AEDII)
-## DIW 📁
-[DIW](https://github.com/Kimadzn/CC_PUC-MG/tree/main/DIW)
-## ARQ01 🏛️
-[ARQ01](https://github.com/Kimadzn/CC_PUC-MG/tree/main/ARQ01)
-## IC ⌨📁
-[IC](https://github.com/Kimadzn/CC_PUC-MG/tree/main/IC)
-## Sistema Inteligente/Machine Learning 🤖
-[Sistemas-Inteligentes](https://github.com/Kimadzn/CC_PUC-MG/tree/main/Sistemas-Inteligentes)
-## TI- 1 🎨
-[TI1](https://github.com/Kimadzn/CC_PUC-MG/tree/main/TI1)
+## Arquitetura de Computadores I 🖥️
+- [ARQ01](https://github.com/Kimadzn/CC_PUC-MG/tree/main/ARQ01)
 
+## Introdução à Computação 💻
+- [IC](https://github.com/Kimadzn/CC_PUC-MG/tree/main/IC)
 
+## Sistemas Inteligentes/Machine Learning 🤖
+- [Sistemas Inteligentes](https://github.com/Kimadzn/CC_PUC-MG/tree/main/Sistemas-Inteligentes)
 
+## TI I 🛠️
+- [TI1](https://github.com/Kimadzn/CC_PUC-MG/tree/main/TI1)
 
 ## Autores
-
 - [Arthur Octávio Xavier Messias](https://www.github.com/kimadzn)
-
