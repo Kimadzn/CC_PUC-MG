@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#0d101b, #281a2d);
+    overflow-x: hidden;
+}
+#verificado {
+    margin-bottom: 4vh;
+}
+.sidebar {
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    width: 50px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #281a2d;
+    padding: 6px 16px;
+    box-shadow: 5px 0 30px rgba(0, 0, 0, .1);
+    transition: all .5s ease;
+    z-index: 1;
+}
+
+.sidebar.active {
+    width: 240px;
+}
+
+.sidebar .logo_content .logo {
+    display: flex;
+    color: #b8b7b7;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    margin-left: 5px;
+    pointer-events: none;
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.sidebar.active .logo_content .logo {
+    transition: all .5s ease;
+    opacity: 1;
+}
+
+.sidebar .logo_content .logo .logo_name {
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: 0 10px;
+}
+
+.sidebar #btn {
+    position: absolute;
+    color: #af2747;
+    left: 50%;
+    top: 6px;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translate(-50%);
+}
+
+.sidebar.active #btn {
+    left: 85%;
+}
+
+.sidebar .src {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+.fotodeperfil{
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    margin-right: 10px;
+
+}
+.sidebar .src input {
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 50px);
+    left: 0;
+    top: 0;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #af2747;
+    padding-left: 50px;
+    font-size: 15px;
+    color: #343232;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    transition: all .5s ease;
+}
+
+.sidebar .src .bx-search {
+    position: absolute;
+    z-index: 99;
+    font-size: 22px;
+    color: #000000;
+    transition: all .5s ease;
+}
+
+.sidebar .src .bx-search:hover {
+    color: #00000000;
+}
+
+.sidebar .src .bx-search:hover~input {
+    background-color: #ffffff;
+}
+
+.sidebar i {
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.sidebar ul {
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    line-height: 50px;
+    list-style: none;
+}
+
+.sidebar ul li a {
+    color: #b3b3b3;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 13px;
+    white-space: nowrap;
+    transition: all .4s ease;
+}
+
+.sidebar ul li a:hover {
+    background: #e7e9f5;
+    color: #0b2997;
+}
+
+.sidebar .link_name {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sidebar.active .link_name {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.sidebar ul li .tooltip {
+    position: absolute;
+    left: 130px;
+    top: 0;
+    transform: translate(-45%, -50%);
+    border-radius: 10px;
+    min-height: 35px;
+    min-width: 130px;
+    background: #ffffff;
+    line-height: 35px;
+    text-align: center;
+    font-size: 13px;
+    display: block;
+    color: #242424;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    pointer-events: none;
+    opacity: 0;
+    transition: all .5s ease;
+}
+.sidebar.active li .tooltip {
+    display: none;
+}
+
+.sidebar ul li:hover .tooltip {
+    opacity: 1;
+    top: 50%;
+}
+
+.container {
+    width: calc(100% - 360px);
+    /* Reduz a largura para compensar a largura da barra lateral */
+    height: 20vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Alterado para espaçamento entre os elementos */
+    z-index: 0;
+    transition: all .5s ease;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar.active~.container {
+    width: calc(100% - 300px);
+    /* Reduz ainda mais a largura quando a barra lateral está ativa */
+}
+
+.container nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    /* Alterado para espaçamento entre os elementos */
+    align-items: center;
+}
+
+.container nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.container nav ul li {
+    margin-left: 40px;
+    /* Espaçamento entre os itens do menu */
+}
+
+.container nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.container nav ul li a:hover,
+.container nav ul li a:visited:hover {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.welcome {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    margin-right: 750px;
+}
+
+.sidebar.active~.container .welcome {
+    opacity: 0;
+    transition: all .5s;
+}
+
+.sidebar input::placeholder {
+    color: black;
+    /* Defina a cor do placeholder */
+}
+
+
+/*----content style----*/
+
+.perfil {
+    color: #fff;
+}
+
+.perfil-container {
+    margin-left: 120px;
+}
+
+.foto-perfil-container {
+    max-height: 230px;
+    min-height: 230px;
+    max-width: 230px;
+    min-width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.foto-perfil {
+    height: 250px;
+    width: 250px;
+    object-fit: cover; /* Isso garante que a imagem preencha o espaço sem distorcer */
+    border-radius: 10%; /* Isso dá uma borda arredondada, opcional */
+}
+.paginatitleh2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.containernome{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    gap: 200px;
+    width: 20%;
+}
+#nome{
+    margin-left: 16px;
+}
+.nome-container {
+    max-height: 10px;
+    min-height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+.divtelefone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+
+}
+.edit-button{
+    margin-top: 20px;
+    background-color: #af2747;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.save-button{
+    margin-top: 20px;
+    background-color: #af2747;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logout-button{
+    margin-top: 20px;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logout-button:hover{
+    background-color: #d00404;
+    transition: 0.5s;
+}
+.delete-button{
+    margin-top: 20px;
+    background-color: #ff1100;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete-button:hover{
+    background-color: #8f0404;
+    transition: 0.5s;
+}
+.edit-button:hover{
+    background-color: #ff8800;
+    transition: 0.5s;
+}
+.save-button:hover{
+    background-color: #ff8800;
+    transition: 0.5s;
+}
+.telefoneFoto{
+    width: 30px;
+
+    margin-right: 10px;
+}
+.descricao-container {
+    max-height: 100px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+#imgver{
+    width: 250px;
+}
+.descricao-container-aux {
+    font-size: larger;
+    margin-bottom: 15px;
+}
+
+.descricao {
+    font-size: x-large;
+}
+
+.cache-container {
+    max-height: 50px;
+    min-height: 50px;
+    max-width: 150px;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: large;
+}
+
+.cache-instrumentos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    ;
+}
+
+.instrumento-container {
+    max-height: 50px;
+    min-height: 50px;
+    max-width: 150px;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: large;
+}
+
+.objetivo-container {
+    max-height: 50px;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.estilo-container {
+    max-height: 50px;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logout-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 50px;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.logout-button {
+    max-height: 50px;
+    min-height: 50px;
+    max-width: 100px;
+    min-width: 100px;
+}

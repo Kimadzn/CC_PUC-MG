@@ -1,0 +1,125 @@
+.container{
+    display: flex;
+    align-items: center;
+
+}
+#banda-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.cardprincipal{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    /*centralizar div*/
+    margin-left: 20vh;
+    margin-top: 50vh;
+    margin-right: 20vh;
+    margin-bottom: 8vh;
+    padding: 0px;
+    border-radius: 10px;
+
+}
+/*colocar descrição em itálico e estilizada*/
+.desc{
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 2vh;
+    margin-bottom: 2vh;
+}
+/*ao passar o mouse, o botão muda de cor*/
+.membrosbanda{
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.sidebar ul li .tooltip {
+    position: absolute;
+    left: 130px;
+    top: 0;
+    transform: translate(-45%, -50%);
+    border-radius: 10px;
+    min-height: 35px;
+    min-width: 130px;
+    background: #ffffff;
+    line-height: 35px;
+    text-align: center;
+    font-size: 13px;
+    display: block;
+    color: #242424;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    pointer-events: none;
+    opacity: 0;
+    transition: all .5s ease;
+}
+.memberscard{
+    background-color: #231829;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    height: 100%;
+    width: 550px;
+    padding-bottom: 20px;
+
+}
+#members-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Estilos para o container dos membros */
+#members-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilos para cada membro individual */
+.member {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.member-info {
+    display: flex;
+    align-items: center;
+}
+
+.member-info img {
+    width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem cubra o espaço do contêiner */
+    margin-right: 20px;
+}
+
+.member-info div {
+    flex-grow: 1; /* Ocupa todo o espaço restante */
+}
+
+.member-info p {
+    margin: 5px 0;
+}
+
+/* Estilize conforme necessário para atender às suas preferências visuais */
