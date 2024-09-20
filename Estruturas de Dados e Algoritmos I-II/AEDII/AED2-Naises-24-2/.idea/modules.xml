@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/tp01/05/05.iml" filepath="$PROJECT_DIR$/tp01/05/05.iml" />
       <module fileurl="file://$PROJECT_DIR$/AED2-Naises-24-2.iml" filepath="$PROJECT_DIR$/AED2-Naises-24-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EstudoProvaPilha/EstudoProvaFila.iml" filepath="$PROJECT_DIR$/EstudoProvaPilha/EstudoProvaFila.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FilaJava/FilaJava.iml" filepath="$PROJECT_DIR$/FilaJava/FilaJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pilha2/Pilha2.iml" filepath="$PROJECT_DIR$/Pilha2/Pilha2.iml" />
       <module fileurl="file://$PROJECT_DIR$/tp01/tp01.iml" filepath="$PROJECT_DIR$/tp01/tp01.iml" />
     </modules>
   </component>
