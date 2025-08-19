@@ -13,14 +13,14 @@ Organizado por disciplinas para facilitar a navegação e consulta.
 
 | 📖 Disciplina | 🔗 Acesso |
 |--------------|-----------|
-| **AED I – Gustavo** | [Abrir](./AEDI%20-%20Gustavo) |
-| **AED I – Theldo** | [Abrir](./AEDI%20-%20Theldo) |
-| **AED II** | [Abrir](./AEDII) |
-| **Desenvolvimento de Interfaces Web (DIW)** | [Abrir](./DIW) |
-| **Arquitetura de Computadores I** | [Abrir](./ARQ01) |
-| **Introdução à Computação (IC)** | [Abrir](./IC) |
-| **Sistemas Inteligentes** | [Abrir](./Sistemas%20Inteligentes) |
-| **Tecnologia da Informação I (TI I)** | [Abrir](./TI1) |
+| **AED I – Gustavo** | [Abrir](https://github.com/Kimadzn/CC_PUC-MG/tree/a0636a5fb39786aa6585cf1bf4454fc7b31bff52/2024/Estruturas%20de%20Dados%20e%20Algoritmos%20I-II/AEDI) |
+| **AED I – Theldo** | [Abrir](https://github.com/Kimadzn/CC_PUC-MG/tree/a0636a5fb39786aa6585cf1bf4454fc7b31bff52/2024/Estruturas%20de%20Dados%20e%20Algoritmos%20I-II/AEDI) |
+| **AED II** | [Abrir]([./AEDII](https://github.com/Kimadzn/CC_PUC-MG/tree/a0636a5fb39786aa6585cf1bf4454fc7b31bff52/2024/Estruturas%20de%20Dados%20e%20Algoritmos%20I-II/AEDII)) |
+| **Desenvolvimento de Interfaces Web (DIW)** | [Abrir]([./DIW](https://github.com/Kimadzn/CC_PUC-MG/tree/a0636a5fb39786aa6585cf1bf4454fc7b31bff52/2024/DesignEInterfaceWeb-TrabalhoApiJogos)) |
+| **Arquitetura de Computadores I** | [Abrir](https://github.com/Kimadzn/CC_PUC-MG/tree/a0636a5fb39786aa6585cf1bf4454fc7b31bff52/2024/Arquitetura%20de%20Computadores%20I-II) |
+| **Introdução à Computação (IC)** | [Abrir]([./IC](https://github.com/Kimadzn/CC_PUC-MG/tree/a0636a5fb39786aa6585cf1bf4454fc7b31bff52/2024/Inicia%C3%A7%C3%A3oAComputa%C3%A7%C3%A3oIC-WebsitePessoal)) |
+| **Sistemas Inteligentes** | [Abrir]([./Sistemas%20Inteligentes](https://github.com/Kimadzn/CC_PUC-MG/tree/a0636a5fb39786aa6585cf1bf4454fc7b31bff52/2024/Sistemas-Inteligentes)) |
+| **TI (TI I)** | [Abrir]([./TI1](https://github.com/Kimadzn/CC_PUC-MG/tree/a0636a5fb39786aa6585cf1bf4454fc7b31bff52/2024/Trabalho%20Interdisciplinar%20I-II-III)) |
 
 ---
 
